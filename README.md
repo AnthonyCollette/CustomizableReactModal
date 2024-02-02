@@ -25,6 +25,25 @@ class Example extends Component {
 }
 ```
 
+## Options
+| Props | Type | Description |
+| color | String | Main color |
+| title | String | Title text |
+| text | String | Paragraph text |
+| textAlign | String | Paragraph text alignement |
+| titleAlign | String | Title alignement |
+| border | Number | Modal border thickness |
+| btnFilled | Boolean | Add a filled button |
+| btnOutline | Boolean | Add an outline button |
+| btnCross | Boolean | Add a cross button |
+| crossColor | String | Cross button background color |
+| btnText | String | Button text |
+| btnBorderRadius | Number | Button border radius |
+| btnPadding | String | Button padding |
+| btnAlign | String | Button alignement |
+| handleModalBtn | Function | Function to manage button |
+| handleCrossBtn | Function | Function to manage cross button click |
+
 ## License
 
 MIT © [AnthonyCollette](https://github.com/AnthonyCollette)
