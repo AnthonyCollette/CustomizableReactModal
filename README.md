@@ -27,6 +27,7 @@ class Example extends Component {
 
 ## Options
 | Props | Type | Description |
+|-------|------|-------------|
 | color | String | Main color |
 | title | String | Title text |
 | text | String | Paragraph text |
