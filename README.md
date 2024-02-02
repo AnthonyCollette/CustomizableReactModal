@@ -29,21 +29,21 @@ class Example extends Component {
 | Props | Type | Description | Example |
 |-------|------|-------------|---------|
 | color | String | Main color | ```#123456```
-| title | String | Title text |
-| text | String | Paragraph text |
-| textAlign | String | Paragraph text alignement |
-| titleAlign | String | Title alignement |
-| border | Number | Modal border thickness |
-| btnFilled | Boolean | Add a filled button |
-| btnOutline | Boolean | Add an outline button |
-| btnCross | Boolean | Add a cross button |
-| crossColor | String | Cross button background color |
-| btnText | String | Button text |
-| btnBorderRadius | Number | Button border radius |
-| btnPadding | String | Button padding |
-| btnAlign | String | Button alignement |
-| handleModalBtn | Function | Function to manage button |
-| handleCrossBtn | Function | Function to manage cross button click |
+| title | String | Title text | ```What a super title !```
+| text | String | Paragraph text | ```I love capybaras. They're calm and zen.```
+| textAlign | String | Paragraph text alignement | ```left```
+| titleAlign | String | Title alignement | ```center```
+| border | Number | Modal border thickness | ```10```
+| btnFilled | Boolean | Add a filled button | ```btnFilled```
+| btnOutline | Boolean | Add an outline button | ```btnOutline```
+| btnCross | Boolean | Add a cross button | ```btnCross```
+| crossColor | String | Cross button background color | ```#123456```
+| btnText | String | Button text | ```Here we go !```
+| btnBorderRadius | Number | Button border radius | ```5```
+| btnPadding | String | Button padding | ```10px 30px```
+| btnAlign | String | Button alignement | ```right```
+| handleModalBtn | Function | Function to manage button | ```mySuperFunction```
+| handleCrossBtn | Function | Function to manage cross button click | ```myOtherSuperFunction```
 
 ## License
 
