@@ -26,9 +26,9 @@ class Example extends Component {
 ```
 
 ## Options
-| Props | Type | Description |
-|-------|------|-------------|
-| color | String | Main color |
+| Props | Type | Description | Example |
+|-------|------|-------------|---------|
+| color | String | Main color | ```#123456```
 | title | String | Title text |
 | text | String | Paragraph text |
 | textAlign | String | Paragraph text alignement |
