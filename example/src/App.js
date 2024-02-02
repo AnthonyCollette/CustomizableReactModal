@@ -1,10 +1,9 @@
 import React from 'react'
-
-import { ExampleComponent } from 'customizable-react-modal'
-import 'customizable-react-modal/dist/index.css'
+import CustomizableReactModal from 'customizable-react-modal'
+import 'customizable-react-modal/dist/index.css';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <CustomizableReactModal text="Super test de modale" title="Super titre" btnFilled btnText="Fermer la modale" color="#870540" btnCross crossColor="#870540" />
 }
 
 export default App
