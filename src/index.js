@@ -1,8 +1,34 @@
 import React from "react";
 import styles from './styles.module.css';
 
+/**
+ * Customizable modal component for React.
+ * @param {object} props - The component props.
+ * @param {string} props.color - The main color of the modal.
+ * @param {string} props.title - The title of the modal.
+ * @param {string} props.text - The text of the modal.
+ * @param {boolean} props.btnFilled - Indicates if the button is filled.
+ * @param {boolean} props.btnOutline - Indicates if the button has an outline.
+ * @param {string} props.btnText - The text of the button.
+ * @param {function} props.handleCrossBtn - The function to handle the close button.
+ * @param {number} props.btnBorderRadius - The border radius of the button.
+ * @param {string} props.btnPadding - The padding of the button.
+ * @param {string} props.btnAlign - The horizontal alignment of the button ('left', 'center', 'right').
+ * @param {string} props.textAlign - The horizontal alignment of the text.
+ * @param {string} props.titleAlign - The horizontal alignment of the title.
+ * @param {string} props.crossColor - The color of the close button.
+ * @param {boolean} props.btnCross - Indicates if the close button is displayed.
+ * @param {number} props.border - The border thickness of the modal.
+ * @param {function} props.handleModalBtn - The function to handle the modal button.
+ * @returns {JSX.Element} The customizable modal component.
+ */
+
 const CustomizableReactModal = ({ color, title, text, btnFilled, btnOutline, btnText, handleCrossBtn, btnBorderRadius, btnPadding, btnAlign, textAlign, titleAlign, crossColor, btnCross, border, handleModalBtn }) => {
 
+    /**
+     * Determines the position of the button based on the specified alignment.
+     * @returns {string} The CSS position of the button.
+     */
     const btnPosition = () => {
         switch (btnAlign) {
             case 'left':
